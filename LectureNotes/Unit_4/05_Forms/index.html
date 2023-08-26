@@ -29,16 +29,16 @@
 <div id="radio-btn">
 <!--Radio btn will all use the same name for a given group. This is so we can make sure only one value is selected at a time, and seperates a radio button from a check box-->
 <label>Small Pizza</label>
-<input type="radio" name="size" value="">
+<input type="radio" name="size" value="small">
 <br>
 <label>Medium Pizza</label>
-<input type="radio" name="size" value="">
+<input type="radio" name="size" value="medium">
 <br>
 <label>Large Pizza</label>
-<input type="radio" name="size" value="">
+<input type="radio" name="size" value="Large">
 <br>
 <label>X-Large</label>
-<input type="radio" name="size" value="">
+<input type="radio" name="size" value="X large">
 </div>
 
 <br>
@@ -46,6 +46,21 @@
 <button type="submit">Submit</button>
 </form>
 
+<br><br>
+
+<table>
+    <thead>
+     <tr>
+        <th>Order #</th>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Toppings</th>
+     </tr>   
+    </thead>
+    <tbody>
+        <!--this is where new orders will go-->
+    </tbody>
+</table>
 
     <script> src= "./forms.js"</script>
 </body>
