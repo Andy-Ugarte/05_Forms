@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizza Order</h1>
+
+    <form>
+        <!-- a form is used in HTML as a grouping of inputs-->
+        <!--input does NOT have to be inside of a form, the form simply provides us a "wrapper" to reference different inuts-->
+     
+        <label for="">Name on the order</label>
+        <br> <!--place the label above the input field for legibility-->
+        <input autocomplete="off" type="text" placeholder="enter your name" name="orderName" >
+<br><br>
+
+<label for="toppings">List of toppings</label>
+<br>
+<input type="text" autocomplete="off" name="toppings" placeholder="Cheese, Pepperoni,etc.">
+
+
+<br><br>
+
+
+<label for="size">Size of pizza</label>
+<div id="radio-btn">
+<!--Radio btn will all use the same name for a given group. This is so we can make sure only one value is selected at a time, and seperates a radio button from a check box-->
+<label>Small Pizza</label>
+<input type="radio" name="size" value="">
+<br>
+<label>Medium Pizza</label>
+<input type="radio" name="size" value="">
+<br>
+<label>Large Pizza</label>
+<input type="radio" name="size" value="">
+<br>
+<label>X-Large</label>
+<input type="radio" name="size" value="">
+</div>
+
+<br>
+
+<button type="submit">Submit</button>
+</form>
+
+
+    <script> src= "./forms.js"</script>
+</body>
+</html>

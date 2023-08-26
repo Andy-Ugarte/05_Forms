@@ -1,0 +1,102 @@
+<!-- This is a comment in HTML -->
+<!-- -->
+<!-- Comments are NOT rendered as code when a file is read -->
+"!" or "BANG" is a way for us to quickly create a boilerplate for our HTML.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- DOCTYPE: declares exactly what it is, an HTML document
+-lang: notes what language the document is written in. Helps with search engines and browsers
+
+-the head tag holds all of our meta data for the document. 
+-This holds various information such as the title of the document, viewpoint settings, andlinks to other files, such as CSS
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpoint" content="width=device-width,initial-scale= 1.0">
+  <title>Document</title>
+
+<!-- charset: defines what characters are available, such as 0-9, a-z, symbols, etc.
+http-equiv: Allows us to render older browser versions in necessary. in
+this case, it is targeting Edge; however this is not necesarry-->
+</head>
+<body>
+  <!--Elements are tags we can see on our webpage. 
+  Body: what client will be rendering -->
+
+  <h1>Examples of structural Elements</h1>
+  <div>
+  <div>
+  - h1 : heading to h1- h6, getting smaller as number inclreases. h1 biggest, h6 smallest.
+  -div: a division, most used tag.
+  - p: paragraph element. (text)
+  -img: provide image element
+  -span: we can write block of text without line breaks.  
+  </div>  
+
+  <h2>Sample H2</h2>
+  <h3>Sample H3</h3>
+
+  <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime architecto porro odio iste ad sed animi, corrupti consequatur, aliquam similique nihil obcaecati aspernatur rem. A dolore quisquam ab esse numquam.</span>
+
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus fuga corrupti, omnis ab voluptatum! Repudiandae nisi velit pariatur officia repellat, dolorum optio deleniti! Amet illo atque ipsum rerum inventore!</p>
+
+  <img src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png" alt="Upright education logo">
+
+<!-- 
+  the img tag has two default attributes
+  -src
+    -requiered
+    -source of the image, this could either be a relative path to an assets folder, or a direct link to an image  on the web.
+      -lin would be what were using in this example
+      -relative path would be "./assets/image.png"
+  -alt
+    -optional - HIGHLY reccomeneded
+    -test used in case an image doesn't load
+    -the text ready by screen reader for the visually imparied
+    - can be a source fro SEO (search engine optimization) 
+-->
+
+<!-- 
+  ul: unordered list element bullet points
+  ol: ordered list numbers list
+  li: list item
+  emmet abbreviation: div>ul>li*6
+-->
+<div>
+  <ul>
+    <li><strong>Bolds out text</strong>but does <b>this.</b></li>
+    <li><em>Provides emphasis</em> or <i>italics</i></li>
+    <li><br>Will do a line break for us. <i>Notice no closing tag?</i></li>
+    <li><hr>Gives us a horizontal rule or <b>dividing line</b></li>
+    <li><blockquote>"quote"</blockquote></li>
+    <li><pre>A way to showcase code</pre></li>
+  </ul>
+</div>
+
+
+<!-- a few more self-closing tags-->
+<div> 
+  <!---
+    input: Typically used for forms, but not limited to them
+    -Many different types of inputs, numbers, date, time, email, password, radical
+    - link is going to show up on a browser, but is used to connect different files together, such as a CSS file or an HTML page
+   -->
+  <input type="text">
+  <link rel="stylesheet" href="">
+</div>
+</body>
+</html>
